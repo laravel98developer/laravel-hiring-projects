@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "98376f8c-1435-427c-b948-4d93aa557e1c",
+		"name": "AbrArvan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2511936"
+	},
+	"item": [
+		{
+			"name": "Gift_Code",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "code",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "1000000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/admin/gift/code",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"gift",
+								"code"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phone",
+									"value": "09111111111",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/user/gift/code",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"gift",
+								"code"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transactions",
+			"item": [
+				{
+					"name": "allByPhone",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/user/transactions?phone=09111111111",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"transactions"
+							],
+							"query": [
+								{
+									"key": "phone",
+									"value": "09111111111"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Wallet",
+			"item": [
+				{
+					"name": "balance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/user/wallet?phone=09111111111",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"wallet"
+							],
+							"query": [
+								{
+									"key": "phone",
+									"value": "09111111111"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "successTransactionsByCode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/admin/transactions/{{code}}/success",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"transactions",
+								"{{code}}",
+								"success"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cache",
+			"item": [
+				{
+					"name": "flush",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/cache/flush",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cache",
+								"flush"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000"
+		},
+		{
+			"key": "code",
+			"value": "test"
+		}
+	]
+}

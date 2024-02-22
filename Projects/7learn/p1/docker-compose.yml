@@ -1,0 +1,100 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: sammy
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: 7lear
+    container_name: 7learn-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - 7learn
+
+  db:
+    image: mysql:8.0
+    container_name: 7learn-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+    networks:
+      - 7learn
+
+  nginx:
+    image: nginx:alpine
+    container_name: 7learn-nginx
+    restart: unless-stopped
+    ports:
+      - 1370:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - 7learn
+
+  phpmyadmin:
+    image: phpmyadmin:5.2.1
+    container_name: 7learn-phpmyadmin
+    links:
+      - db
+    environment:
+        PMA_HOST: db
+        PMA_PORT: 3306
+    ports:
+        - 8081:80
+    networks:
+        - 7learn
+  # elasticsearch:
+  #   container_name: elasticsearch
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:8.8.1
+  #   # 8.x
+  #   environment: ['CLI_JAVA_OPTS=-Xms2g -Xmx2g','bootstrap.memory_lock=true','discovery.type=single-node','xpack.security.enabled=false', 'xpack.security.enrollment.enabled=false']
+  #   ports:
+  #     - 9200:9200
+  #   networks:
+  #     - 7learn
+  #   ulimits:
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #     nofile:
+  #       soft: 65536
+  #       hard: 65536
+  #   deploy:    
+  #     resources:
+  #         limits:
+  #           cpus: '2.0'
+  #         reservations:
+  #           cpus: '1.0'
+
+  # kibana:
+  #   image: docker.elastic.co/kibana/kibana:8.8.1
+  #   container_name: kibana
+  #   environment:
+  #     XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY: d1a66dfd-c4d3-4a0a-8290-2abcb83ab3aa
+  #   ports:
+  #     - 5601:5601
+  #   networks:
+  #     - 7learn
+  #   deploy:    
+  #     resources:
+  #         limits:
+  #           cpus: '2.0'
+  #         reservations:
+  #           cpus: '1.0'
+
+networks:
+  7learn:
+    driver: bridge

@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+    project-laravel:
+        build:
+            context: "."
+        env_file:
+            - .env
+        ports:
+            - "0.0.0.0:8000:8000"
+        volumes:
+            - ".:/Projects"
+        depends_on:
+            - project-mysql
+            - project-redis
+
+    project-mysql:
+        image: mysql:8.0
+        environment:
+            MYSQL_ROOT_PASSWORD: "123456"
+            MYSQL_DATABASE: "laravel"
+            MYSQL_PASSWORD: ""
+        volumes:
+            - "project-mysql:/var/lib/mysql"
+        healthcheck:
+            test: ["CMD", "mysqladmin", "ping"]
+        restart: always
+
+    project-phpmyadmin:
+        image: phpmyadmin:5.0.4
+        environment:
+            PMA_HOST: project-mysql
+            PMA_PORT: 3306
+            UPLOAD_LIMIT: 1G
+        depends_on:
+            - project-mysql
+        restart: always
+        ports:
+            - 0.0.0.0:9090:80
+
+    project-redis:
+        image: redis:6
+        restart: always
+        command: 'redis-server --save 20 1 --loglevel warning'
+        volumes:
+            - 'project-redis:/data'
+
+volumes:
+    project-mysql:
+    project-redis:
