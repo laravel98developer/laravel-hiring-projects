@@ -68,10 +68,4 @@ docker-compose exec app php artisan test
 - [Candoo SMS Service](http://my.candoosms.com/)
 
 - [Queue & job](https://laravel.com/docs/10.x/queues)
- 
-
-
-## Authors
-
-- [@Hamid1ganeh2st](https://github.com/hamid1ganeh)
 
