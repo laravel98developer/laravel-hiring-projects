@@ -3,6 +3,8 @@
 | # | پروژه ی درخواستی |     عنوان شغلی     |                                 شرکت                                 | تاریخ | 
 |:-:|:----------------:|:------------------:|:--------------------------------------------------------------------:|:-----:|
 | 1 |   [پروژه][p1]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1402  |
+| 1 |    [چالش][c1]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1403  |
+| 1 |    [چالش][c2]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1403  |
 | 2 |   [پروژه][p2]    | برنامه نویس بک اند | ![tehrancreditcard logo] <br/> [تهران کریدیت کارت][tehrancreditcard] | 1402  |
 | 3 |   [پروژه][p3]    | برنامه نویس بک اند |                                  -                                   |   -   |
 | 4 |   [پروژه][p4]    | برنامه نویس بک اند |          ![Arvan Cloud logo] <br/> [ابر آروان][Arvan Cloud]          | 1402  |
@@ -11,6 +13,9 @@
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/assets/157349083/820499bc-d100-4ad3-a386-638d2409a616
 [p3]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Interview%20Challenges/Private%20Companies/C1
 [p4]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Abrarvan/p1
+
+[c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
+[c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
 
 [7learn]: https://7learn.com
 [tehrancreditcard]:https://tehrancreditcard.com
