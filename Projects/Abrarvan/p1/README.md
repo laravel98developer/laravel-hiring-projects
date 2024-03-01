@@ -52,5 +52,5 @@ http://localhost:8000
 
 Download the Postman API:
 
-[Postman API Collection](https://github.com/farshadth/AbrArvan-Challenge/blob/master/AbrArvan.postman_collection.json)
+[Postman API Collection](https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Abrarvan/p1/AbrArvan.postman_collection.json)
 
