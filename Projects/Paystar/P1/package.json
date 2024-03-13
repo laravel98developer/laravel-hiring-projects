@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "watch": "mix watch",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.56.1",
+        "sass-loader": "^12.1.0",
+        "vue": "^2.7.14",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.7.14"
+    },
+    "dependencies": {
+        "bootstrap": "^5.2.3",
+        "bootstrap-vue": "^2.23.1",
+        "vue-router": "^3.6.5"
+    }
+}

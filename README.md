@@ -1,16 +1,17 @@
 <div dir="rtl">
 
-| # | پروژه ی درخواستی |     عنوان شغلی     |                                 شرکت                                 | تاریخ | 
-|:-:|:----------------:|:------------------:|:--------------------------------------------------------------------:|:-----:|
-| 1 |   [پروژه][p1]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1402  |
-| 2 |    [چالش][c1]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1403  |
-| 3 |    [چالش][c2]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1403  |
-| 4 |   [پروژه][p2]    | برنامه نویس بک اند | ![tehrancreditcard logo] <br/> [تهران کریدیت کارت][tehrancreditcard] | 1402  |
-| 5 |   [پروژه][p3]    | برنامه نویس بک اند |                                  -                                   |   -   |
-| 6 |   [پروژه][p4]    | برنامه نویس بک اند |          ![Arvan Cloud logo] <br/> [ابر آروان][Arvan Cloud]          | 1402  |
-| 7 |   [پروژه][p5]    | برنامه نویس بک اند |                  ![itoll logo] <br/> [آیتول][itoll]                  | 1402  |
-| 8 |   [پروژه][p6]    | برنامه نویس بک اند |                ![Turpal logo] <br/> [تورپال][Turpal]                 | 1402  |
-| 9 |   [پروژه][p7]    | برنامه نویس بک اند |                  ![Ehna logo] <br/> [اهنا][Ehna]                   | 1400  |
+| #  | پروژه ی درخواستی |     عنوان شغلی     |                                 شرکت                                 | تاریخ | 
+|:--:|:----------------:|:------------------:|:--------------------------------------------------------------------:|:-----:|
+| 1  |   [پروژه][p1]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1402  |
+| 2  |    [چالش][c1]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1403  |
+| 3  |    [چالش][c2]    | برنامه نویس بک اند |               ![7learn logo]  <br/> [سون لرن][7learn]                | 1403  |
+| 4  |   [پروژه][p2]    | برنامه نویس بک اند | ![tehrancreditcard logo] <br/> [تهران کریدیت کارت][tehrancreditcard] | 1402  |
+| 5  |   [پروژه][p3]    | برنامه نویس بک اند |                                  -                                   |   -   |
+| 6  |   [پروژه][p4]    | برنامه نویس بک اند |          ![Arvan Cloud logo] <br/> [ابر آروان][Arvan Cloud]          | 1402  |
+| 7  |   [پروژه][p5]    | برنامه نویس بک اند |                  ![itoll logo] <br/> [آیتول][itoll]                  | 1402  |
+| 8  |   [پروژه][p6]    | برنامه نویس بک اند |                ![Turpal logo] <br/> [تورپال][Turpal]                 | 1402  |
+| 9  |   [پروژه][p7]    | برنامه نویس بک اند |                   ![Ehna logo] <br/> [اهنا][Ehna]                    | 1400  |
+| 10 |   [پروژه][p8]    | برنامه نویس بک اند |                ![Paystar logo] <br/> [پی استار][Ehna]                | 1402  |
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/p1
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
@@ -19,22 +20,25 @@
 [p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll/p1
 [p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/p1
 [p7]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/p1
+[p8]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Paystar/p1
 
 [c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
 [c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
 
-[7learn]: https://7learn.com
+[7learn]:https://7learn.com
 [tehrancreditcard]:https://tehrancreditcard.com
 [Arvan Cloud]:https://www.arvancloud.ir/fa
 [itoll]:https://itoll.com/
 [Turpal]:https://www.linkedin.com/company/turpal
 [Ehna]:https://www.linkedin.com/company/ehna-%D8%A7%D9%90%D9%87%D9%86%D8%A7/
+[Paystar]:https://paystar.ir/
 
-[7learn logo]: https://7learn.com/assets/img/icons/logo.svg
+[7learn logo]:https://7learn.com/assets/img/icons/logo.svg
 [tehrancreditcard logo]:https://tehrancreditcard.com/wp-content/uploads/2021/04/پرداخت-آنلاین-ارزی.png
 [Arvan Cloud logo]:https://www.arvancloud.ir/images/v6/svg/logo-header-desktop-v6.svg
 [itoll logo]:https://itoll.com/_ipx/s_128x36/itoll-white.svg
-[Turpal logo]:[p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/Turpul_logo.jpg
-[Ehna logo]:[p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/Ehna_logo.webp
+[Turpal logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/Turpul_logo.jpg
+[Ehna logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/Ehna_logo.webp
+[Paystar logo]:https://paystar.ir/homepage/image/logo.svg
 
 </div>
