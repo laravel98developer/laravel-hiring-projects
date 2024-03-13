@@ -17,8 +17,8 @@
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
 [p3]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Interview%20Challenges/Private%20Companies/C1
 [p4]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Abrarvan/P1
-[p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll/P1
-[p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/P1
+[p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll
+[p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal
 [p7]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/P1
 [p8]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Paystar/P1
 
@@ -37,8 +37,8 @@
 [tehrancreditcard logo]:https://tehrancreditcard.com/wp-content/uploads/2021/04/پرداخت-آنلاین-ارزی.png
 [Arvan Cloud logo]:https://www.arvancloud.ir/images/v6/svg/logo-header-desktop-v6.svg
 [itoll logo]:https://itoll.com/_ipx/s_128x36/itoll-white.svg
-[Turpal logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/Turpul_logo.jpg
-[Ehna logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/Ehna_logo.webp
+[Turpal logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/Turpal_logo.png
+[Ehna logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/Ehna_logo.png
 [Paystar logo]:https://paystar.ir/homepage/image/logo.svg
 
 </div>
