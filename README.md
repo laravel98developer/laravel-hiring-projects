@@ -11,7 +11,7 @@
 | 4 |   [پروژه][p5]    | برنامه نویس بک اند |                  ![itoll logo] <br/> [آیتول][itoll]                  | 1402  |
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/p1
-[p2]:https://github.com/laravel98developer/laravel-hiring-projects/assets/157349083/820499bc-d100-4ad3-a386-638d2409a616
+[p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
 [p3]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Interview%20Challenges/Private%20Companies/C1
 [p4]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Abrarvan/p1
 [p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll/p1
