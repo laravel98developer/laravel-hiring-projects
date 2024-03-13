@@ -13,14 +13,14 @@
 | 9  |   [پروژه][p7]    | برنامه نویس بک اند |                   ![Ehna logo] <br/> [اهنا][Ehna]                    | 1400  |
 | 10 |   [پروژه][p8]    | برنامه نویس بک اند |                ![Paystar logo] <br/> [پی استار][Ehna]                | 1402  |
 
-[p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/p1
+[p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/P1
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
 [p3]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Interview%20Challenges/Private%20Companies/C1
-[p4]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Abrarvan/p1
-[p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll/p1
-[p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/p1
-[p7]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/p1
-[p8]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Paystar/p1
+[p4]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Abrarvan/P1
+[p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll/P1
+[p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/P1
+[p7]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/P1
+[p8]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Paystar/P1
 
 [c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
 [c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
