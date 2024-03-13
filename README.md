@@ -37,8 +37,8 @@
 [tehrancreditcard logo]:https://tehrancreditcard.com/wp-content/uploads/2021/04/پرداخت-آنلاین-ارزی.png
 [Arvan Cloud logo]:https://www.arvancloud.ir/images/v6/svg/logo-header-desktop-v6.svg
 [itoll logo]:https://itoll.com/_ipx/s_128x36/itoll-white.svg
-[Turpal logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal/Turpal_logo.png
-[Ehna logo]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/Ehna_logo.png
+[Turpal logo]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Turpal/Turpal_logo.png
+[Ehna logo]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Ehna/Ehna_logo.png
 [Paystar logo]:https://paystar.ir/homepage/image/logo.svg
 
 </div>
