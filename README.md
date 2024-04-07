@@ -12,6 +12,7 @@
 | 8  |   [پروژه][p6]    | برنامه نویس بک اند |                ![Turpal logo] <br/> [تورپال][Turpal]                 | 1402  |
 | 9  |   [پروژه][p7]    | برنامه نویس بک اند |                   ![Ehna logo] <br/> [اهنا][Ehna]                    | 1400  |
 | 10 |   [پروژه][p8]    | برنامه نویس بک اند |                ![Paystar logo] <br/> [پی استار][Ehna]                | 1402  |
+| 11 |   [پروژه][p9]    | برنامه نویس بک اند |              ![Digikala logo] <br/> [دیجیکالا][Digikala]              | 1400  |
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/P1
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
@@ -21,6 +22,7 @@
 [p6]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Turpal
 [p7]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/P1
 [p8]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Paystar/P1
+[p9]:h
 
 [c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
 [c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
@@ -32,6 +34,7 @@
 [Turpal]:https://www.linkedin.com/company/turpal
 [Ehna]:https://www.linkedin.com/company/ehna-%D8%A7%D9%90%D9%87%D9%86%D8%A7/
 [Paystar]:https://paystar.ir/
+[Digikala]:https://www.digikala.com/
 
 [7learn logo]:https://7learn.com/assets/img/icons/logo.svg
 [tehrancreditcard logo]:https://tehrancreditcard.com/wp-content/uploads/2021/04/پرداخت-آنلاین-ارزی.png
@@ -40,5 +43,6 @@
 [Turpal logo]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Turpal/Turpal_logo.png
 [Ehna logo]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Ehna/Ehna_logo.png
 [Paystar logo]:https://paystar.ir/homepage/image/logo.svg
+[Digikala logo]:https://www.digikala.com/statics/img/svg/logo.svg
 
 </div>
