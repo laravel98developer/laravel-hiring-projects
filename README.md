@@ -37,7 +37,7 @@ laravel98developer@gmail.com
 [p7]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Ehna/P1
 [p8]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Paystar/P1
 [p9]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Digikala/P1
-[p10]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/SnappFood/P1
+[p10]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/SnappFood/p1
 [p11]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Private%20Companies/P1
 [p12]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Technopay
 
