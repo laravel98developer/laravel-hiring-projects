@@ -11,22 +11,24 @@
 #خودتان_برای_خودتان<br/>
 laravel98developer@gmail.com
 
-| #  | پروژه ی درخواستی |     عنوان شغلی     |                                                                  شرکت                                                                  | تاریخ | 
-|:--:|:----------------:|:------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|:-----:|
-| 1  |   [پروژه][p1]    | برنامه نویس بک اند |                                                ![7learn logo]  <br/> [سون لرن][7learn]                                                 | 1402  |
-| 2  |    [چالش][c1]    | برنامه نویس بک اند |                                                ![7learn logo]  <br/> [سون لرن][7learn]                                                 | 1402  |
-| 3  |    [چالش][c2]    | برنامه نویس بک اند |                                                ![7learn logo]  <br/> [سون لرن][7learn]                                                 | 1402  |
-| 4  |   [پروژه][p2]    | برنامه نویس بک اند |                                  ![tehrancreditcard logo] <br/> [تهران کریدیت کارت][tehrancreditcard]                                  | 1402  |
-| 5  |   [پروژه][p3]    | برنامه نویس بک اند |                                                           نام شرکت محفوظ است                                                           |   -   |
-| 6  |   [پروژه][p4]    | برنامه نویس بک اند |                                           ![Arvan Cloud logo] <br/> [ابر آروان][Arvan Cloud]                                           | 1402  |
-| 7  |   [پروژه][p5]    | برنامه نویس بک اند |                                                   ![itoll logo] <br/> [آیتول][itoll]                                                   | 1402  |
-| 8  |   [پروژه][p6]    | برنامه نویس بک اند |                                                 ![Turpal logo] <br/> [تورپال][Turpal]                                                  | 1402  |
-| 9  |   [پروژه][p7]    | برنامه نویس بک اند |                                                    ![Ehna logo] <br/> [اهنا][Ehna]                                                     | 1400  |
-| 10 |   [پروژه][p8]    | برنامه نویس بک اند |                                                 ![Paystar logo] <br/> [پی استار][Ehna]                                                 | 1402  |
-| 11 |   [پروژه][p9]    | برنامه نویس بک اند |                                              ![Digikala logo] <br/> [دیجیکالا][Digikala]                                               | 1400  |
-| 12 |   [پروژه][p10]   | برنامه نویس بک اند | <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Snappfood-logo.svg" style="height:30px;" />  <br/> [اسنپ فود][SnappFood] | 1400  |
-| 13 |   [پروژه][p11]   | برنامه نویس بک اند |                                                           نام شرکت محفوظ است                                                           | 1402  |
-| 14 |   [پروژه][p12]   | برنامه نویس بک اند |     <img src="https://technotejarat.ir/wp-content/uploads/2022/08/TP-Logo2.png" style="height:30px;" />  <br/> [تکنوپی][Technopay]     | 1402  |
+| #  | پروژه ی درخواستی |     عنوان شغلی     |                                                                                                                             شرکت                                                                                                                              | تاریخ | 
+|:--:|:----------------:|:------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----:|
+| 1  |   [پروژه][p1]    | برنامه نویس بک اند |                                                                                                            ![7learn logo]  <br/> [سون لرن][7learn]                                                                                                            | 1402  |
+| 2  |    [چالش][c1]    | برنامه نویس بک اند |                                                                                                            ![7learn logo]  <br/> [سون لرن][7learn]                                                                                                            | 1402  |
+| 3  |    [چالش][c2]    | برنامه نویس بک اند |                                                                                                            ![7learn logo]  <br/> [سون لرن][7learn]                                                                                                            | 1402  |
+| 4  |   [پروژه][p2]    | برنامه نویس بک اند |                                                                                             ![tehrancreditcard logo] <br/> [تهران کریدیت کارت][tehrancreditcard]                                                                                              | 1402  |
+| 5  |   [پروژه][p3]    | برنامه نویس بک اند |                                                                                                                      نام شرکت محفوظ است                                                                                                                       |   -   |
+| 6  |   [پروژه][p4]    | برنامه نویس بک اند |                                                                                                      ![Arvan Cloud logo] <br/> [ابر آروان][Arvan Cloud]                                                                                                       | 1402  |
+| 7  |   [پروژه][p5]    | برنامه نویس بک اند |                                                                                                              ![itoll logo] <br/> [آیتول][itoll]                                                                                                               | 1402  |
+| 8  |   [پروژه][p6]    | برنامه نویس بک اند |                                                                                                             ![Turpal logo] <br/> [تورپال][Turpal]                                                                                                             | 1402  |
+| 9  |   [پروژه][p7]    | برنامه نویس بک اند |                                                                                                                ![Ehna logo] <br/> [اهنا][Ehna]                                                                                                                | 1400  |
+| 10 |   [پروژه][p8]    | برنامه نویس بک اند |                                                                                                            ![Paystar logo] <br/> [پی استار][Ehna]                                                                                                             | 1402  |
+| 11 |   [پروژه][p9]    | برنامه نویس بک اند |                                                                                                          ![Digikala logo] <br/> [دیجیکالا][Digikala]                                                                                                          | 1400  |
+| 12 |   [پروژه][p10]   | برنامه نویس بک اند |                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Snappfood-logo.svg" style="height:30px;" />  <br/> [اسنپ فود][SnappFood]                                                             | 1400  |
+| 13 |   [پروژه][p11]   | برنامه نویس بک اند |                                                                                                                      نام شرکت محفوظ است                                                                                                                       | 1402  |
+| 14 |   [پروژه][p12]   | برنامه نویس بک اند |                                                                <img src="https://technotejarat.ir/wp-content/uploads/2022/08/TP-Logo2.png" style="height:30px;" />  <br/> [تکنوپی][Technopay]                                                                 | 1402  |
+| 15 |   [پروژه][p13]   | برنامه نویس بک اند |                                                                       <img src="https://cdn.karlancer.com/assets/karlancer-logo.png" style="height:30px;" /> <br/> [کارلنسر][Karlancer]                                                                       | 1402  |
+| 16 |   [پروژه][p14]   | برنامه نویس بک اند | <img src="https://media.licdn.com/dms/image/D4E0BAQHk9xrXHqSYqA/company-logo_200_200/0/1706369451918/fringe_interior_logo?e=1729123200&v=beta&t=cvcyDMwVswv5SL3f2myZM9fp0U8pb-X5_zgHoXNdgqg" style="height:30px;" /> <br/> [Fringe Interior][Fringe Interior] | 1402  |
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/P1
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
@@ -40,6 +42,8 @@ laravel98developer@gmail.com
 [p10]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/SnappFood/p1
 [p11]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Private%20Companies/P1
 [p12]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Technopay
+[p13]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Karlancer
+[p14]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Fringe%20Interior
 
 [c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
 [c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
@@ -54,6 +58,8 @@ laravel98developer@gmail.com
 [Digikala]:https://www.digikala.com/
 [SnappFood]:https://snappfood.ir/
 [Technopay]:https://technotejarat.ir/startups/%d8%aa%da%a9%d9%86%d9%88%d9%be%db%8c/
+[Karlancer]:https://karlancer.com
+[Fringe Interior]:https://www.linkedin.com/company/fringe-interior
 
 [7learn logo]:https://7learn.com/assets/img/icons/logo.svg
 [tehrancreditcard logo]:https://tehrancreditcard.com/wp-content/uploads/2021/04/پرداخت-آنلاین-ارزی.png

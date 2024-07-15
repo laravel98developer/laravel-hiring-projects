@@ -1,0 +1,46 @@
+version: '3.8'
+services:
+    php:
+        container_name: barena_php
+        build:
+            args:
+                user: ${WWW_USER}
+            context: ./docker/php
+        restart: unless-stopped
+        user: ${WWW_USER}:${WWW_USER}
+        volumes:
+            - ./:/var/www/html
+        depends_on:
+            - mongo
+            - redis
+
+    nginx:
+        container_name: barena_nginx
+        image: nginx:latest
+        restart: unless-stopped
+        ports:
+            - ${APP_PORT}:80
+        volumes:
+            - ./:/var/www/html
+            - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+        depends_on:
+            - php
+
+    mongo:
+        container_name: barena_mongo
+        image: mongo:latest
+        restart: unless-stopped
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: ${DB_USERNAME}
+            MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
+        ports:
+            - ${DB_PORT}:${DB_PORT}
+        volumes:
+            - ./docker/mongodb/data:/data/db
+
+    redis:
+        container_name: barena_redis
+        restart: unless-stopped
+        image: redis:latest
+        ports:
+            - ${REDIS_EXTERNAL_PORT}:${REDIS_PORT}
