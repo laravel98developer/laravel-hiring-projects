@@ -1,0 +1,274 @@
+{
+  "info": {
+    "_postman_id": "fe2ea50b-784c-4f71-8053-18271f331768",
+    "name": "Itoll-task",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "9973321",
+    "_collection_link": "https://no91one.postman.co/workspace/My-Workspace~ef7a4e50-c490-4005-8328-6f85848e79ff/collection/9973321-fe2ea50b-784c-4f71-8053-18271f331768?action=share&creator=9973321&source=collection_link"
+  },
+  "item": [
+    {
+      "name": "supplier",
+      "item": [
+        {
+          "name": "index",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "supply-1",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/supply/orders",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "supply",
+                "orders"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "store",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "supply-1",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"from_destination_latitude\": \"90\",\r\n    \"from_destination_longitude\": \"5.352\",\r\n    \"to_destination_latitude\": \"23\",\r\n    \"to_destination_longitude\": \"63\",\r\n    \"address\": \"The address field is required.\",\r\n    \"supplier_name\": \"The supplier name field is required.\",\r\n    \"supplier_phone\": \"09380909996\",\r\n    \"receiver_name\": \"The receiver name field is required.\",\r\n    \"receiver_phone\": \"09380909996\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/supply/orders",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "supply",
+                "orders"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "supply-1",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/supply/orders/9",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "supply",
+                "orders",
+                "9"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "item": [
+        {
+          "name": "index",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "delivery-1",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/delivery/orders",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "delivery",
+                "orders"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "accept",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "delivery-1",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"delivery_latitude\": \"90\",\r\n    \"delivery_longitude\": \"5.352\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/delivery/orders/10/accept",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "delivery",
+                "orders",
+                "10",
+                "accept"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delivering",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "delivery-1",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"delivery_latitude\": \"90\",\r\n    \"delivery_longitude\": \"5.352\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/delivery/orders/10/delivering",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "delivery",
+                "orders",
+                "10",
+                "delivering"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delivered",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "checker",
+                "value": "delivery-1",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"delivery_latitude\": \"90\",\r\n    \"delivery_longitude\": \"5.352\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/delivery/orders/10/delivered",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "delivery",
+                "orders",
+                "10",
+                "delivered"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
