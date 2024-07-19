@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+    application:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: snappfood.app
+        restart: always
+        volumes:
+            - .:/var/www/html
+        command: bash -c "composer i && php artisan key:generate &&  php-fpm"
+        depends_on:
+            - postgres
+            - nginx
+        networks:
+            - payment_network
+    postgres:
+        image: postgres:latest
+        container_name: snappfood.postgres
+        restart: always
+        environment:
+            POSTGRES_DB: snappfood_db
+            POSTGRES_USER: snappfood_user
+            POSTGRES_PASSWORD: 123456
+        volumes:
+            - /var/lib/postgresql/data:/var/lib/postgresql/data
+        networks:
+            - payment_network
+        ports:
+            - '5432:5432'
+    nginx:
+        build:
+            context: .
+            dockerfile: Dockerfile.nginx
+        restart: always
+        container_name: snappfood.nginx
+        ports:
+            - "8000:80"
+        networks:
+            - payment_network
+        volumes:
+            - ./default.conf:/etc/nginx/conf.d/default.conf
+            - .:/var/www/html
+networks:
+    payment_network:
+        driver: bridge
