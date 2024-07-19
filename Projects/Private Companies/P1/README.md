@@ -1,9 +1,9 @@
 
-<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Private%20Companies/P1/project-description1.jpg1.jpg" />
+<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Private%20Companies/P1/project-description1.jpg" />
 
-<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Private%20Companies/P1/project-description1.jpg2.jpg" />
+<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Private%20Companies/P1/project-description2.jpg" />
 
-<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Private%20Companies/P1/project-description1.jpg3.jpg" />
+<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Private%20Companies/P1/project-description3.jpg" />
 
 <hr/>
 
