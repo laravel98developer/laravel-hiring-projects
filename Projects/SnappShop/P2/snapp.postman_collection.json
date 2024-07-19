@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "12431ca4-c8df-468b-a3f3-62421e133229",
+		"name": "snapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17603689"
+	},
+	"item": [
+		{
+			"name": "transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"source_card_number\":6037999546433159,\n  \"destination_card_number\":6037990019047010,\n  \"amount\": 10000\n}"
+				},
+				"url": {
+					"raw": "{{host}}/api/v1/transfer",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "top-users",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/v1/top-users",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"top-users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "top-users eloquent",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/api/v1/top-users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"top-users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "api.bitoff.test"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Aug 2023 19:57:45 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Aug 2023 19:57:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.9"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "56"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 101,\n        \"name\": \"mehdi\",\n        \"email\": \"dorcas86@example.org\",\n        \"phone\": \"9149383467\",\n        \"email_verified_at\": \"2023-08-25T12:34:20.000000Z\",\n        \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n        \"updated_at\": \"2023-08-25T12:34:20.000000Z\",\n        \"accounts\": [\n            {\n                \"id\": 69,\n                \"user_id\": 101,\n                \"account_number\": \"9168146997648\",\n                \"current_balance\": \"12453.00\",\n                \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n                \"updated_at\": \"2023-08-25T19:57:43.000000Z\",\n                \"cards\": [\n                    {\n                        \"id\": 39,\n                        \"account_id\": 69,\n                        \"card_number\": 6037999546433159,\n                        \"balance\": \"260000.00\",\n                        \"expiration_date\": \"2024-03-23\",\n                        \"cvv\": \"935\",\n                        \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n                        \"updated_at\": \"2023-08-25T19:57:43.000000Z\",\n                        \"transactions\": [\n                            {\n                                \"id\": 27,\n                                \"source_card_id\": 39,\n                                \"destination_card_id\": 41,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T19:57:43.000000Z\",\n                                \"updated_at\": \"2023-08-25T19:57:43.000000Z\"\n                            },\n                            {\n                                \"id\": 26,\n                                \"source_card_id\": 39,\n                                \"destination_card_id\": 41,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T19:57:41.000000Z\",\n                                \"updated_at\": \"2023-08-25T19:57:41.000000Z\"\n                            },\n                            {\n                                \"id\": 20,\n                                \"source_card_id\": 39,\n                                \"destination_card_id\": 40,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T15:14:23.000000Z\",\n                                \"updated_at\": \"2023-08-25T15:14:23.000000Z\"\n                            },\n                            {\n                                \"id\": 19,\n                                \"source_card_id\": 39,\n                                \"destination_card_id\": 40,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T15:13:53.000000Z\",\n                                \"updated_at\": \"2023-08-25T15:13:53.000000Z\"\n                            },\n                            {\n                                \"id\": 18,\n                                \"source_card_id\": 39,\n                                \"destination_card_id\": 40,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T15:11:56.000000Z\",\n                                \"updated_at\": \"2023-08-25T15:11:56.000000Z\"\n                            }\n                        ]\n                    },\n                    {\n                        \"id\": 40,\n                        \"account_id\": 69,\n                        \"card_number\": 6037994919936033,\n                        \"balance\": \"340000.00\",\n                        \"expiration_date\": \"2026-08-02\",\n                        \"cvv\": \"944\",\n                        \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n                        \"updated_at\": \"2023-08-25T15:14:23.000000Z\",\n                        \"transactions\": []\n                    }\n                ]\n            }\n        ]\n    },\n    {\n        \"id\": 102,\n        \"name\": \"reza\",\n        \"email\": \"mante.megane@example.net\",\n        \"phone\": \"9909856567\",\n        \"email_verified_at\": \"2023-08-25T12:34:20.000000Z\",\n        \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n        \"updated_at\": \"2023-08-25T12:34:20.000000Z\",\n        \"accounts\": [\n            {\n                \"id\": 70,\n                \"user_id\": 102,\n                \"account_number\": \"467366203\",\n                \"current_balance\": \"37785.00\",\n                \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n                \"updated_at\": \"2023-08-25T19:57:43.000000Z\",\n                \"cards\": [\n                    {\n                        \"id\": 41,\n                        \"account_id\": 70,\n                        \"card_number\": 6037990019047010,\n                        \"balance\": \"245000.00\",\n                        \"expiration_date\": \"2025-07-19\",\n                        \"cvv\": \"793\",\n                        \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n                        \"updated_at\": \"2023-08-25T19:57:43.000000Z\",\n                        \"transactions\": [\n                            {\n                                \"id\": 25,\n                                \"source_card_id\": 41,\n                                \"destination_card_id\": 39,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T19:55:58.000000Z\",\n                                \"updated_at\": \"2023-08-25T19:55:58.000000Z\"\n                            },\n                            {\n                                \"id\": 24,\n                                \"source_card_id\": 41,\n                                \"destination_card_id\": 39,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T19:42:07.000000Z\",\n                                \"updated_at\": \"2023-08-25T19:42:07.000000Z\"\n                            },\n                            {\n                                \"id\": 23,\n                                \"source_card_id\": 41,\n                                \"destination_card_id\": 39,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T15:59:44.000000Z\",\n                                \"updated_at\": \"2023-08-25T15:59:44.000000Z\"\n                            },\n                            {\n                                \"id\": 22,\n                                \"source_card_id\": 41,\n                                \"destination_card_id\": 39,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T15:21:33.000000Z\",\n                                \"updated_at\": \"2023-08-25T15:21:33.000000Z\"\n                            },\n                            {\n                                \"id\": 21,\n                                \"source_card_id\": 41,\n                                \"destination_card_id\": 39,\n                                \"amount\": \"10000.00\",\n                                \"created_at\": \"2023-08-25T15:18:19.000000Z\",\n                                \"updated_at\": \"2023-08-25T15:18:19.000000Z\"\n                            }\n                        ]\n                    },\n                    {\n                        \"id\": 42,\n                        \"account_id\": 70,\n                        \"card_number\": 6037995197236152,\n                        \"balance\": \"300000.00\",\n                        \"expiration_date\": \"2026-08-12\",\n                        \"cvv\": \"352\",\n                        \"created_at\": \"2023-08-25T12:34:20.000000Z\",\n                        \"updated_at\": \"2023-08-25T12:34:20.000000Z\",\n                        \"transactions\": []\n                    }\n                ]\n            }\n        ]\n    }\n]"
+				}
+			]
+		}
+	]
+}
