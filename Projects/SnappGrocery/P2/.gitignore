@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+/vendor/
+
+.env
+.env.local
+.env.*.local
+
+.vscode/
+.idea/
+*.swp
+
+/logs/
+*.log
+/tmp/

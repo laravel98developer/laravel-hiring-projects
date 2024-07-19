@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "9906:3306"
+    volumes:
+      - web-db:/var/lib/mysql
+    cap_add:
+      - SYS_NICE
+
+  web:
+    build: .
+    container_name: php_web
+    depends_on:
+      - db
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "5050:5050"
+    stdin_open: true
+    tty: true
+
+volumes:
+  web-db:

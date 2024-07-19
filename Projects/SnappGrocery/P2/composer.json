@@ -1,0 +1,16 @@
+{
+    "name": "amir/todolist",
+    "license": "'",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amir Mohammadpour",
+            "email": "am.mohammadpour@digikala.com"
+        }
+    ],
+    "require": {}
+}
