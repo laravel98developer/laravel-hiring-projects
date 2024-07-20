@@ -37,6 +37,7 @@ laravel98developer@gmail.com
 | 22 |   [پروژه][p22]   | برنامه نویس بک اند |                                                      <img src="https://cdn.snappshop.ir/customer-production-assets/public/text-logo.webp?q=75&w=64" style="height:30px;" /> <br/> [اسنپ شاپ][Snapp shop]                                                      | 1402/06 |
 | 23 |   [پروژه][p15]   | برنامه نویس بک اند |     <img src="https://media.licdn.com/dms/image/D4E0BAQGEFl47zE3cTg/company-logo_200_200/0/1686400954181/snappgrocery_logo?e=1729728000&v=beta&t=0XC5_ufdZwHGBMzpBg22bcrl-0I1a2xUtkprQQ6WSZY" style="height:30px;" /> <br/> [اسنپ گروسری][Snapp Grocery]      | 1403/02 |
 | 24 |   [پروژه][p18]   | برنامه نویس بک اند |     <img src="https://media.licdn.com/dms/image/D4E0BAQGEFl47zE3cTg/company-logo_200_200/0/1686400954181/snappgrocery_logo?e=1729728000&v=beta&t=0XC5_ufdZwHGBMzpBg22bcrl-0I1a2xUtkprQQ6WSZY" style="height:30px;" /> <br/> [اسنپ گروسری][Snapp Grocery]      | 1403/02 |
+| 25 |   [پروژه][p23]   | برنامه نویس بک اند |                                                           <img src="https://cdn.alibaba.ir/h2/desktop/assets/images/shawl_logotype-d6b14ca0.svg" style="height:30px;" /> <br/> [علی بابا][Alibaba]                                                            | 1403/01 |
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/P1
 [p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
@@ -60,6 +61,7 @@ laravel98developer@gmail.com
 [p20]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Snapp/P2
 [p21]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/SnappShop/P1
 [p22]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/SnappShop/P2
+[p23]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Alibaba/P1
 
 [c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
 [c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
@@ -79,6 +81,7 @@ laravel98developer@gmail.com
 [Snapp Grocery]:https://www.linkedin.com/company/snappgrocery
 [Snapp]:https://snapp.ir/
 [Snapp shop]:https://snappshop.ir/
+[Alibaba]:https://www.alibaba.ir/
 
 
 </div>

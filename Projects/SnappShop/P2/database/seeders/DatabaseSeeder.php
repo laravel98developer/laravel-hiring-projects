@@ -14,8 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $sourceUser = User::factory()->create(['phone' => '9149383467', 'name' => 'mehdi']);
-        $destinationUser = User::factory()->create(['phone' => '9909856567', 'name' => 'reza']);
+        $sourceUser = User::factory()->create(['phone' => '9111111111', 'name' => 'mehdi']);
+        $destinationUser = User::factory()->create(['phone' => '9222222222', 'name' => 'reza']);
 
         User::All()->each(function ($user) {
             $user->accounts()->save(Account::factory()->make());

@@ -1,0 +1,55 @@
+version: '3.8'
+
+networks:
+    laravel-network:
+        driver: bridge
+
+services:
+    mysql:
+        image: mysql:latest
+        healthcheck:
+            test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+            interval: 5s
+            timeout: 2s
+            retries: 3
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: 123456789
+            MYSQL_DATABASE: laravel
+        volumes:
+            - mysql_data:/var/lib/mysql
+        networks:
+            - laravel-network
+
+    laravel-app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            DB_CONNECTION: mysql
+            DB_HOST: mysql
+            DB_PORT: 3306
+            DB_DATABASE: laravel
+            DB_USERNAME: root
+            DB_PASSWORD: 123456789
+        command: bash -c "php artisan install-command && php-fpm"
+        depends_on:
+            mysql:
+                condition: service_healthy
+        networks:
+            - laravel-network
+
+    nginx:
+        image: nginx:latest
+        ports:
+            - "9000:80"
+        volumes:
+            - ./nginx.conf:/etc/nginx/nginx.conf
+        depends_on:
+            - laravel-app
+        networks:
+            - laravel-network
+
+volumes:
+    mysql_data:

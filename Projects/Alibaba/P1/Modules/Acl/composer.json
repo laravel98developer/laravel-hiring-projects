@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/acl",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Acl\\": "",
+            "Modules\\Acl\\App\\": "app/",
+            "Modules\\Acl\\Database\\Factories\\": "database/factories/",
+            "Modules\\Acl\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Acl\\Tests\\": "tests/"
+        }
+    }
+}

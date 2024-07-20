@@ -1,0 +1,11 @@
+{
+    "name": "Acl",
+    "alias": "acl",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Acl\\App\\Providers\\AclServiceProvider"
+    ],
+    "files": []
+}
