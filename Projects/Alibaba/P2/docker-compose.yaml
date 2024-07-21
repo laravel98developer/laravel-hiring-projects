@@ -1,0 +1,61 @@
+version: "3.8"
+services:
+  blog_app:
+    container_name: blog_app
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+    expose:
+      - 9000
+    volumes:
+      - .:/usr/src/app
+      - ./public:/usr/src/app/public
+    depends_on:
+      - blog_db
+    networks:
+      - app_network
+
+  blog_nginx:
+    container_name: blog_nginx
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile
+    volumes:
+    - ./public:/usr/src/app/public
+    ports:
+      - 8000:80
+    depends_on:
+      - blog_app
+    environment:
+      NGINX_FPM_HOST: blog_app
+      NGINX_ROOT: /usr/src/app/public
+    networks:
+      - app_network
+
+  blog_db:
+    container_name: blog_db
+    image: mysql:8.0.20
+    restart: always
+    volumes:
+      - ./storage/db-data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: blog
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    networks:
+      - app_network
+
+  blog_redis:
+    container_name: blog_redis
+    image: redis:latest
+    ports:
+      - 6379:6379
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
