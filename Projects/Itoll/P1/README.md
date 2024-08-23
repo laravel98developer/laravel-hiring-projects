@@ -1,4 +1,4 @@
-<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Itoll/itoll_project.png" align="center" />
+<img src="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/Itoll/P1/itoll_project.png" align="center" />
 
 <hr />
 
