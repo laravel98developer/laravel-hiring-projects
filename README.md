@@ -41,7 +41,7 @@ laravel98developer@gmail.com
 | 26 |   [پروژه][p24]   | برنامه نویس بک اند |                                                         <img src="https://github.com/user-attachments/assets/80f22ac3-8d5d-468f-84fe-b537e9acc430" style="height:30px;" /> <br/> [علی بابا][Alibaba]                                                          | 1403/01 |
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/P1
-[p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard
+[p2]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Tehrancreditcard/NewsChallange
 [p3]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Interview%20Challenges/Private%20Companies/C1
 [p4]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Abrarvan/P1
 [p5]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Itoll/P1
