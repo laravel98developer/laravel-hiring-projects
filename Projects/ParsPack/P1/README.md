@@ -10,7 +10,7 @@
 <b> غلط های نگارشی و گرامری </b>
 سوالات!!!<br/>
 فایل اصلی که برای برنامه نویسان ارسال شده است را هم میتوانید در
-<b><a href="https://parspack.com/">اینجا</a></b>
+<b><a href="https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Projects/ParsPack/P1/HiringTasks.txt">اینجا</a></b>
 ببینید. (مخلص جامعه لاراول، نگارنده ریپو)
 <br/>
 <br/>
