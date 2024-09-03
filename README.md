@@ -41,6 +41,7 @@ laravel98developer@gmail.com
 | 26 |   [پروژه][p24]   | برنامه نویس بک اند |                                                         <img src="https://github.com/user-attachments/assets/80f22ac3-8d5d-468f-84fe-b537e9acc430" style="height:30px;" /> <br/> [علی بابا][Alibaba]                                                          | 1403/01 |
 | 27 |   [پروژه][p25]   | برنامه نویس بک اند |                                             <img src="https://github.com/user-attachments/assets/3023cc8e-9cdf-4342-9f5c-acae6ef3323e" style="height:30px; background-color:#109ee7" /> <br/> [پارس پک][Parspack]                                             | 1403/05 |
 | 28 |   [پروژه][p26]   | برنامه نویس بک اند |                                                            <img src="https://cdn.lastsecond.ir/last6-assets/img/logo--colored--lg.d4fb265.png" style="height:30px" /> <br/> [لست سکند][Lastsecond]                                                            | 1403/06 |
+| 29 |   [پروژه][p27]   | برنامه نویس بک اند |                                                                 <img src="https://inverseschool.com/assets/images/logo-bozorg.png" style="height:30px" /> <br/> [مدرسه اینورس][Inverseschool]                                                                 | 1403/06 |
 
 
 [p1]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/7learn/P1
@@ -69,6 +70,7 @@ laravel98developer@gmail.com
 [p24]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Alibaba/P2
 [p25]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/ParsPack/P1
 [p26]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Lastsecond
+[p27]:https://github.com/laravel98developer/laravel-hiring-projects/tree/master/Projects/Inverseschool
 
 [c1]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/1.md
 [c2]:https://github.com/laravel98developer/laravel-hiring-projects/blob/master/Interview%20Challenges/7learn/2.md
@@ -91,6 +93,7 @@ laravel98developer@gmail.com
 [Alibaba]:https://www.alibaba.ir/
 [Parspack]:https://parspack.com/
 [Lastsecond]:https://lastsecond.ir/
+[Inverseschool]:https://inverseschool.com/
 
 </div>
 
